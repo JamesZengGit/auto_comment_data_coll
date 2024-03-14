@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
 import json
 import pandas as pd
 from git import Repo
@@ -7,6 +13,10 @@ import subprocess
 
 import numpy as np
 import re
+
+
+# In[ ]:
+
 
 '''
     Get author, repository name from a GitHub address.
@@ -18,4 +28,10 @@ def get_info(repo_link):
     except Exception as e:
         print("an error occured: ", str(e))
         return None, None
-      
+
+
+# In[ ]:
+
+
+
+

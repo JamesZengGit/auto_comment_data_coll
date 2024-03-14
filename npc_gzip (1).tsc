@@ -1,0 +1,237 @@
+level_0	index	url	pull_request_review_id	id	node_id	diff_chunk	path	commit_id	original_commit_id	user	body	created_at	updated_at	html_url	pull_request_url	author_association	_links	reactions	start_line	original_start_line	start_side	line	original_line	side	original_position	position	subject_type	in_reply_to_id	before_context	before	after
+6	2	https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278191063	1553129994	1278191063	PRRC_kwDOJnT91M5ML6XX	"@@ -1,7 +1,29 @@
+-### Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
++# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+ 
+ This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+ 
++## Getting Started
++
++This codebase is available on pypi.org via 
++
++
++```bash
++
++pip install npc-gzip
++
++```
++
++See the [examples](./examples/imdb.py) directory for example usage.
++
++
++## Testing
++
++This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
++
++1. `poetry install --with test`
++2. `pytest tests/` 
++
++
+ ### Require"	README.md	8293be979387927a9a6f90e938a17b8c0c0ed8bc	42342614039fd52242f7fea4ed13f7b362faeac6	{'login': 'bazingagin', 'id': 11184292, 'node_id': 'MDQ6VXNlcjExMTg0Mjky', 'avatar_url': 'https://avatars.githubusercontent.com/u/11184292?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/bazingagin', 'html_url': 'https://github.com/bazingagin', 'followers_url': 'https://api.github.com/users/bazingagin/followers', 'following_url': 'https://api.github.com/users/bazingagin/following{/other_user}', 'gists_url': 'https://api.github.com/users/bazingagin/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/bazingagin/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/bazingagin/subscriptions', 'organizations_url': 'https://api.github.com/users/bazingagin/orgs', 'repos_url': 'https://api.github.com/users/bazingagin/repos', 'events_url': 'https://api.github.com/users/bazingagin/events{/privacy}', 'received_events_url': 'https://api.github.com/users/bazingagin/received_events', 'type': 'User', 'site_admin': False}	I think keeping the option of using the original code base for ppl who want to customize is nice. I can update the doc on that part.	2023-07-29T00:34:03Z	2023-07-29T03:36:59Z	https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278191063	https://api.github.com/repos/bazingagin/npc_gzip/pulls/30	OWNER	{'self': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278191063'}, 'html': {'href': 'https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278191063'}, 'pull_request': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/30'}}	{'url': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278191063/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}					27	RIGHT	28		line		"
+
+## Testing
+
+This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
+
+1. `poetry install --with test`
+2. `pytest tests/` 
+
+
+### Require
+
+See `requirements.txt`.
+
+Install requirements in a clean environment:
+```
+conda create -n npc python=3.7
+conda activate npc
+pip install -r requirements.txt
+```
+"	### Require	
+25	21	https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278270168	1553224335	1278270168	PRRC_kwDOJnT91M5MMNrY	"@@ -1,7 +1,29 @@
+-### Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
++# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+ 
+ This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+ 
++## Getting Started
++
++This codebase is available on pypi.org via 
++
++
++```bash
++
++pip install npc-gzip
++
++```
++
++See the [examples](./examples/imdb.py) directory for example usage.
++
++
++## Testing
++
++This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
++
++1. `poetry install --with test`
++2. `pytest tests/` 
++
++
+ ### Require"	README.md	8293be979387927a9a6f90e938a17b8c0c0ed8bc	42342614039fd52242f7fea4ed13f7b362faeac6	{'login': 'EliahKagan', 'id': 1771172, 'node_id': 'MDQ6VXNlcjE3NzExNzI=', 'avatar_url': 'https://avatars.githubusercontent.com/u/1771172?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/EliahKagan', 'html_url': 'https://github.com/EliahKagan', 'followers_url': 'https://api.github.com/users/EliahKagan/followers', 'following_url': 'https://api.github.com/users/EliahKagan/following{/other_user}', 'gists_url': 'https://api.github.com/users/EliahKagan/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/EliahKagan/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/EliahKagan/subscriptions', 'organizations_url': 'https://api.github.com/users/EliahKagan/orgs', 'repos_url': 'https://api.github.com/users/EliahKagan/repos', 'events_url': 'https://api.github.com/users/EliahKagan/events{/privacy}', 'received_events_url': 'https://api.github.com/users/EliahKagan/received_events', 'type': 'User', 'site_admin': False}	"A possible alternative to maintaining the old code in an `original_codebase` subdirectory could be to make a branch at the last commit prior to changes from this PR. The branch might diverge slightly due to changes in the readme, or in case it has to be changed in the future for some other reason, but that would be fine. The readme on `main` would still have to be changed to tell readers about that branch and link to it. (This would affect *what* change would made to the readme, which is why I'm mentioning it here.)
+
+To be clear, I am *not* asking that this be done. I don't actually know that it would be better. I have no recommendation either way. I don't feel that I'm in a good position to know which is better for this project, the decision may be largely subjective, and it may have the disadvantage of making things a little harder for some users if they are not yet comfortable with Git."	2023-07-29T08:49:37Z	2023-07-29T17:15:34Z	https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278270168	https://api.github.com/repos/bazingagin/npc_gzip/pulls/30	COLLABORATOR	{'self': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278270168'}, 'html': {'href': 'https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278270168'}, 'pull_request': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/30'}}	{'url': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278270168/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}					27	RIGHT	28		line	1278191063.0	"
+
+## Testing
+
+This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
+
+1. `poetry install --with test`
+2. `pytest tests/` 
+
+
+### Require
+
+See `requirements.txt`.
+
+Install requirements in a clean environment:
+```
+conda create -n npc python=3.7
+conda activate npc
+pip install -r requirements.txt
+```
+"	### Require	
+27	23	https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278271263	1553224335	1278271263	PRRC_kwDOJnT91M5MMN8f	"@@ -1,7 +1,29 @@
+-### Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
++# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+ 
+ This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+ 
++## Getting Started
++
++This codebase is available on pypi.org via "	README.md	8293be979387927a9a6f90e938a17b8c0c0ed8bc	42342614039fd52242f7fea4ed13f7b362faeac6	{'login': 'EliahKagan', 'id': 1771172, 'node_id': 'MDQ6VXNlcjE3NzExNzI=', 'avatar_url': 'https://avatars.githubusercontent.com/u/1771172?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/EliahKagan', 'html_url': 'https://github.com/EliahKagan', 'followers_url': 'https://api.github.com/users/EliahKagan/followers', 'following_url': 'https://api.github.com/users/EliahKagan/following{/other_user}', 'gists_url': 'https://api.github.com/users/EliahKagan/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/EliahKagan/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/EliahKagan/subscriptions', 'organizations_url': 'https://api.github.com/users/EliahKagan/orgs', 'repos_url': 'https://api.github.com/users/EliahKagan/repos', 'events_url': 'https://api.github.com/users/EliahKagan/events{/privacy}', 'received_events_url': 'https://api.github.com/users/EliahKagan/received_events', 'type': 'User', 'site_admin': False}	"We could make this a link to the PyPI page:
+
+```diff
+- This codebase is available on pypi.org via
++ This codebase is [available on PyPI](https://pypi.org/project/npc-gzip/) via:
+```"	2023-07-29T09:03:07Z	2023-07-29T17:15:32Z	https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278271263	https://api.github.com/repos/bazingagin/npc_gzip/pulls/30	COLLABORATOR	{'self': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278271263'}, 'html': {'href': 'https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278271263'}, 'pull_request': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/30'}}	{'url': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278271263/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}					7	RIGHT	8		line		"# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+
+This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+
+## Getting Started
+
+This codebase is available on pypi.org via 
+
+
+```bash
+
+pip install npc-gzip
+
+```
+
+See the [examples](./examples/imdb.py) directory for example usage.
+"	This codebase is available on pypi.org via 	
+29	25	https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278272183	1553224335	1278272183	PRRC_kwDOJnT91M5MMOK3	"@@ -1,7 +1,29 @@
+-### Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
++# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+ 
+ This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+ 
++## Getting Started
++
++This codebase is available on pypi.org via 
++
++
++```bash
++
++pip install npc-gzip
++
++```
++
++See the [examples](./examples/imdb.py) directory for example usage.
++
++
++## Testing
++
++This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:"	README.md	8293be979387927a9a6f90e938a17b8c0c0ed8bc	42342614039fd52242f7fea4ed13f7b362faeac6	{'login': 'EliahKagan', 'id': 1771172, 'node_id': 'MDQ6VXNlcjE3NzExNzI=', 'avatar_url': 'https://avatars.githubusercontent.com/u/1771172?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/EliahKagan', 'html_url': 'https://github.com/EliahKagan', 'followers_url': 'https://api.github.com/users/EliahKagan/followers', 'following_url': 'https://api.github.com/users/EliahKagan/following{/other_user}', 'gists_url': 'https://api.github.com/users/EliahKagan/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/EliahKagan/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/EliahKagan/subscriptions', 'organizations_url': 'https://api.github.com/users/EliahKagan/orgs', 'repos_url': 'https://api.github.com/users/EliahKagan/repos', 'events_url': 'https://api.github.com/users/EliahKagan/events{/privacy}', 'received_events_url': 'https://api.github.com/users/EliahKagan/received_events', 'type': 'User', 'site_admin': False}	Minor grammar nit: should be `to maintain its dependencies` (no apostrophe).	2023-07-29T09:15:16Z	2023-07-29T17:15:32Z	https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278272183	https://api.github.com/repos/bazingagin/npc_gzip/pulls/30	COLLABORATOR	{'self': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278272183'}, 'html': {'href': 'https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278272183'}, 'pull_request': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/30'}}	{'url': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278272183/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}					21	RIGHT	22		line		"
+pip install npc-gzip
+
+```
+
+See the [examples](./examples/imdb.py) directory for example usage.
+
+
+## Testing
+
+This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
+
+1. `poetry install --with test`
+2. `pytest tests/` 
+
+
+### Require
+
+See `requirements.txt`.
+
+Install requirements in a clean environment:"	This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:	
+30	26	https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278275211	1553224335	1278275211	PRRC_kwDOJnT91M5MMO6L	"@@ -1,7 +1,29 @@
+-### Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
++# Code for Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors
+ 
+ This paper is accepted to Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
+ 
++## Getting Started
++
++This codebase is available on pypi.org via 
++
++
++```bash
++
++pip install npc-gzip
++
++```
++
++See the [examples](./examples/imdb.py) directory for example usage.
++
++
++## Testing
++
++This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
++
++1. `poetry install --with test`
++2. `pytest tests/` "	README.md	8293be979387927a9a6f90e938a17b8c0c0ed8bc	42342614039fd52242f7fea4ed13f7b362faeac6	{'login': 'EliahKagan', 'id': 1771172, 'node_id': 'MDQ6VXNlcjE3NzExNzI=', 'avatar_url': 'https://avatars.githubusercontent.com/u/1771172?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/EliahKagan', 'html_url': 'https://github.com/EliahKagan', 'followers_url': 'https://api.github.com/users/EliahKagan/followers', 'following_url': 'https://api.github.com/users/EliahKagan/following{/other_user}', 'gists_url': 'https://api.github.com/users/EliahKagan/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/EliahKagan/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/EliahKagan/subscriptions', 'organizations_url': 'https://api.github.com/users/EliahKagan/orgs', 'repos_url': 'https://api.github.com/users/EliahKagan/repos', 'events_url': 'https://api.github.com/users/EliahKagan/events{/privacy}', 'received_events_url': 'https://api.github.com/users/EliahKagan/received_events', 'type': 'User', 'site_admin': False}	"When I run them, `poetry install` and `poetry install --with test` have the same effect for this project. They both install all dependency groups in `pyproject.toml`. They both include the `test` group, and they also include the `dev` group. (I am making sure to remove the environments between tests, and this still happens.)
+
+I admit I'm not totally clear on when `--with` ever changes the behavior of `poetry`; I find this confusing. However, if the goal is to install everything, I suggest just `poetry install`, and if the goal is to *omit* the heaver dependencies in the `dev` group, then I recommend `poetry install --only=main,test` (which I have also tested).
+
+I suggest making it a code block instead of a list of code spans, and showing how to run `pytest` in the `poetry` environment either with `poetry shell` or by using `poetry run pytest`. I like:
+
+~~~markdown
+```bash
+poetry install
+poetry shell
+pytest
+```
+~~~
+
+**Edit:** I've looked into this (see my comment in `test-package.yml`) and I can give more information. Furthermore, we have doctests now, so the specific recommendation here may not be good. I'm marking this resolved and I'll replace this comment with a new one."	2023-07-29T09:30:08Z	2023-07-30T23:35:53Z	https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278275211	https://api.github.com/repos/bazingagin/npc_gzip/pulls/30	COLLABORATOR	{'self': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278275211'}, 'html': {'href': 'https://github.com/bazingagin/npc_gzip/pull/30#discussion_r1278275211'}, 'pull_request': {'href': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/30'}}	{'url': 'https://api.github.com/repos/bazingagin/npc_gzip/pulls/comments/1278275211/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}		23.0	RIGHT		24	RIGHT	25		line		"
+```
+
+See the [examples](./examples/imdb.py) directory for example usage.
+
+
+## Testing
+
+This package utilizes `poetry` to maintain it's dependencies and `pytest` to execute tests. To get started running the tests:
+
+1. `poetry install --with test`
+2. `pytest tests/` 
+
+
+### Require
+
+See `requirements.txt`.
+
+Install requirements in a clean environment:
+```
+conda create -n npc python=3.7
+conda activate npc"	"1. `poetry install --with test`
+2. `pytest tests/` "	"This package utilizes `poetry` to maintain its dependencies and `pytest` to execute tests. To get started running the tests:
+"
